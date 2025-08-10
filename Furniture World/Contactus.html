@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>web page</title>
+  <style>
+
+
+
+  #abc
+{
+      width:100%;
+      background-color:#fada5e; 
+}
+    #box{
+      float:right;
+      height:30px;
+      
+    }
+    #image{
+
+    }
+    #text{
+      text-align: center;
+    }
+    #lastdiv{
+      background-image: assets/images/about.jpg;
+    }
+
+
+    .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+        .form {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+            background-color: white;
+
+        }
+        .form input[type="text"],
+        .form input[type="email"],
+        .form textarea {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px; 
+
+        }
+        .form button {
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+         .popup{
+        display: none;
+        position: fixed;
+        top: 20px;
+        width: 50px;
+        left: 150px;
+        height: 60px;
+        align-content: center;
+
+        
+       }
+        .opencon{
+            background-color:grey;
+            max-width: 50px;
+            margin:60px auto;
+            padding:80px;
+            border-radius: 15px;
+            position: fixed;
+            height: 100px;
+        }
+        .close{
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            fr0nt-size:20px;
+            cursor: pointer;
+           }
+           }
+           #button{
+            background-color:white;
+            color: red;
+            height: 50px;
+            width: 200px;
+            border-color:white;
+            margin: 150px;
+        }
+         .pass{
+            width: 200px;
+            height: 30px;
+         }
+
+
+
+.footer {
+     background-image:url("footer.jpeg");
+      opacity: 0.7;
+      height:300px;
+       padding:0px 0px;
+     width:100%;
+     float:left;
+
+}
+ .footer-sect {
+     height:700px;
+     width:33%;
+     float:left;
+     color:black;
+}
+ .footer-sect h2 {
+     color:black;
+     margin-bottom: 20px;
+}
+
+ .footer-menu li {
+     width: 50%;
+     float: left;
+     margin-bottom: 10px;
+   list-style: none;
+}
+ .footer-menu li a {
+     color:black;
+       text-decoration: none;
+}
+.allign{
+    text-align: center;
+    }
+    .form{
+        background-color:skyblue ;
+    }
+  </style>
+
+          <script >
+            function openpopup() 
+        {
+         document.getElementById("popup").style.display="block";
+        }``
+        function closeup()
+         {
+            document.getElementById("popup").style.display="none";
+
+        }
+       
+        function validateHTMlform()
+{ 
+  let form = document.StudenSignupForm;
+   if( form.textnames.value == "" )
+   {
+     alert( "Enter Your Name!" );
+     form.textnames.focus() ;
+     return;
+   }
+    if( form.addressname.value == "" )
+   {
+     alert( "Enter Your Address!" );
+     form.addressname.focus() ;
+     return;
+   }
+    if( form.email.value == "" )
+   {
+     alert( "Enter Your Email!" );
+     form.email.focus() ;
+     return;
+   }
+    if( form.pass.value == "" )
+   {
+     alert( "Enter Your valid password!" );
+     form.pass.focus() ;
+     return;
+   }
+   if( form.area.value == "" )
+   {
+     alert( "Give Some Feedback!" );
+     form.area.focus() ;
+     return;
+   }
+}
+          </script>
+</head>
+<body>
+  <img src="fur.jpg" width="300px" height="40px">
+  <input type="button" name="some" id="box" value="Go">
+  <input type="text" placeholder="search store" id="box">
+ <br>
+  <table id="abc"  height="50px">
+    <tr>
+      <td>
+       <td>             </td>
+       <td> <a href="home.html">Home</td>
+       <td> <a href="Item.html">Items</td>
+       <td> <a href="Gallery.html">Gallery</td>
+        <td><a href="brand.html">Brands</td>
+       <td> <a href="sale.html">Sale</td>
+      </td>
+    </tr>
+  </table>
+
+
+    <p class="allign"><font size="7"> Fill the form </font size></p>
+  <div class="container">
+       
+        <form class="form" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+           <form action method="post">
+              Name: <input type="text"name="Name"placeholder="Enter Your Name" id="textnames">
+                <br>
+                Address: <input type="text"name="address"placeholder="Enter Your Address" id="addressname">
+                <br>
+                EMAIL: <input type="email"name="email"placeholder="Enter Your Email" id="email">
+                <br>
+                Password: <input type="password"name="password"placeholder="Enter Your Password" S id="pass">
+                <br>
+                <label>Enter Your Gender :</label>
+                <br>
+                <input type="radio"name="gender"value="male">
+                <label>Male</label>
+                <br>
+                <input type="radio"name="gender"value="female">
+                <label>Female</label>
+                <br>
+                <label>Report/Feedback</label>
+                <br>
+                <textarea name="about user"id="about"cols="30"rows="10" id="area"></textarea>
+                <br>
+                 <button onclick="openpopup()" id="button"><b>Submit</b></button>
+                 <div id="popup" class="popup">
+    <div class="opencon">
+    <span class="close" onclick="closeup()"> X </span>
+    <p> Your form has been submitted </p>
+    </div>
+  </div>
+  
+        </form>
+    </div>
+ 
+
+
+      <div class="footer">
+   <div class="container">
+      <div class="footer-sect">
+      <h1> <b>  Information </b></h1>
+Index Furniture Nepal is an exclusive franchise of Index Living Mall, Thailand, which is one of the largest manufacturers and retailers of furniture and lifestyle products in Asia with showrooms spread across Thailand and other countries such as Lao PDR, Vietnam, Malaysia, Russia, Myanmar, Cambodia, Pakistan and Indonesia.
+      </div>
+      <div class="footer-sect">
+         <h2><b>CUSTOMER SERVICE</b></h2>
+        
+          <li><a href="assets/images/Contactus.html"></a>Contact us</li><br>
+
+          <li>Sitemap</li><br>
+          <li><a href="https://www.facebook.com/furniturehubnepal">Apply for vendor account</li>  
+        
+     </div>
+      <div class="footer-sect">
+         <h1>FOLLOW US</h1><br>
+         <input type="email" placeholder="Enter Your Mail" >
+         <button type="submit">submit</button>
+      </div>
+   </div>
+</div>
+
+
+
+
+
+     
+
+  </body>
+</html>

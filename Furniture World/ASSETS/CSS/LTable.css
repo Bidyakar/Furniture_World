@@ -1,0 +1,156 @@
+*{box-sizing: border-box;}
+
+
+       body {
+          float: left;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+      float:bottom;
+      height:300px; 
+      text-align:center;
+      background-color:#ffffff;
+       
+      padding:5px 0px;
+      font-size:24pt;
+      color:black;
+   
+  }
+
+  .DChairFolder{
+    margin: auto;
+   display: flex;
+   column-gap: 100px;
+   box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+   padding: 50px;
+   background-color:#0A90B5;
+   width:1000px;
+   padding: 10px;
+   width:  80vw;
+   height: 50vh;
+   justify-content: space-around;  
+  }
+  .DChair1 img{
+   display: block;
+   width: 150%;
+   border-radius: 5px;
+  }
+  .DChair1:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .DChair2 img{
+   display: block;
+   width: 150%;
+   border-radius: 5px;
+  }
+   .DChair2:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .DChair3 img{
+   display: block;
+   width:75%;
+   border-radius: 5px;
+   
+  }
+   .DChair3:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .DChair4 img{
+   display: block;
+   width:75%;
+   border-radius: 5px;
+   
+  }
+   .DChair4:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .DChair5 img{
+   display: block;
+   width:75%;
+   border-radius: 5px;
+   
+  }
+   .DChair5:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+
+   
+   .LChairFolder{
+    
+   display: flex;
+  
+   margin:  auto;
+   column-gap: 70px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+   padding: 150px;
+   background-color:#0A90B5;
+   width:1350px;
+  }
+  .LChair1 img{
+   display: block;
+   width: 150%;
+   border-radius: 5px;
+   margin: 0px 30px;
+  }
+  .LChair1:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .LChair2 img{
+   display: block;
+   width: 65%;
+   border-radius: 5px;
+  }
+  .LChair2:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .LChair3 img{
+   display: block;
+   width: 80%;
+   border-radius: 5px;
+  }
+  .LChair3:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .LChair4 img{
+   display: block;
+   width: 108%;
+   border-radius: 5px;
+   margin: 0px 30px;
+  }
+  .LChair4:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .LChair5 img{
+   display: block;
+   width: 80%;
+   border-radius: 5px;
+  }
+  .LChair5:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .LChair6 img{
+   display: block;
+   width: 125%;
+   border-radius: 5px;
+  }
+  .LChair6:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  
+h3{
+  font-size: 4 rem(0, 0);
+  padding: 50px, 0;
+  text-align: center;
+  color: #000000;
+}

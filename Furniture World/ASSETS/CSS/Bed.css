@@ -1,0 +1,185 @@
+*{box-sizing: border-box;}
+
+
+       body {
+      font-family: Arial, Helvetica, sans-serif;
+      height:400px; 
+      text-align:center;
+      background-color:#dfe6e9;
+      padding:5px 0px;
+      font-size:24pt;
+      color:black;
+      
+   
+  }
+   .Beddings{
+   margin:1000px,60px;
+  }
+  .KING{
+    margin: 100px 50px;
+   display: flex;
+   column-gap: 20px;
+   box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+   padding: 20px;
+   background-color:#0A90B5;
+   width:1260px;
+   padding: 20px;
+   height: 170px;
+   justify-content: space-around;  
+  }
+  .Bed1 img{
+   display: block;
+   width: 400px;
+   height: 350px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+  .Bed1:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+ .bed1text{
+  padding: 12px;
+  height: 80px; 
+  width: 400px;
+  box-sizing: border-box;
+  position:absolute;
+  background:yellow;
+    border-radius: 5px;
+    margin: 0px 0px;
+  }
+  .bed1card{
+   height:400px ;
+   display: block;
+   width: 300px;
+   height: 300px;
+   border-radius: 5px;
+   margin: 0px 0px;
+  box-shadow: 5px 5px 20px #0A90B5;
+  overflow: hidden;
+}
+  .Bed2 img{
+   display: block;
+   width: 400px;
+   height: 350px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   
+.bed2text{
+  padding: 12px;
+  height: 80px; 
+  width: 400px;
+  box-sizing: border-box;
+  position:absolute;
+  background:yellow;
+    border-radius: 5px;
+
+  }
+  .Bed3 img{
+   display: block;
+  width: 390px;
+   height: 350px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   .Bed3:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+ .bed3text{
+  padding: 12px;
+  height: 80px; 
+  width: 390px;
+  box-sizing: border-box;
+  position:absolute;
+  background:yellow;
+    border-radius: 5px;
+  }
+
+   .Queen{
+    
+   display: flex;
+   position: relative;
+   margin:  50px 50px;
+   column-gap: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+   padding: 20px;
+   background-color:#0A90B5;
+   width:1260px;
+   height: 180px;
+   justify-content: space-around;
+  }
+  .Fbed1 img{
+   display: block;
+   width: 400px;
+   height: 300px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+
+  }
+  .Fbed1:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .Fbed1text{
+  height: 80px; 
+  width: 400px;
+  padding:-10px ;
+  box-sizing: border-box;
+  position:absolute;
+  background:yellow;
+    border-radius: 5px;
+  }
+  .Fbed2 img{
+   display: block;
+   width: 400px;
+   height: 300px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+  .Fbed2:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+   .Fbed2text{
+  height: 80px; 
+  width: 400px;
+  box-sizing: border-box;
+  position:absolute;
+ background:yellow;
+    border-radius: 5px;
+  }
+  .Fbed3 img{
+   display: block;
+   width: 400px;
+   height: 300px;
+   border-radius: 5px;
+   margin: 0px 0px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+  .Fbed3:hover{
+    transform:scale(1.1) ;
+    y-index: 2;
+  }
+  .Fbed3text{
+  height: 80px; 
+  width: 400px;
+  box-sizing: border-box;
+  position:absolute;
+ background:yellow;
+    border-radius: 5px;
+  }
+
+/*h3{
+  margin: 0px 50px;
+  font-size: 4 rem(0, 0);
+  padding: 0px, 0px;
+  text-align: center;
+  color: #000000;
+}*/

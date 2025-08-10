@@ -1,0 +1,127 @@
+*{box-sizing: border-box;}
+
+
+       body {
+          float: left;
+         margin: 10px;
+         font-family: Arial, Helvetica, sans-serif;
+         float:bottom;
+         height:300px; 
+         text-align:center;
+         background-color:#dfe6e9;
+         padding:5px 0px;
+         font-size:24pt;
+         color:black;
+   
+  }
+  .SRackFolder{
+    margin: 100px 70px;
+   display: flex;
+   column-gap: 10px;
+   box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+   padding: 50px;
+   background-color: #0A90B5;
+   width:1300px;
+   padding: 10px;
+   height: 200px;
+   justify-content: space-around;  
+  }
+  .ShoeRack1 img{
+  display: block;
+   border-radius: 5px;
+   width: 300px;
+   height: 300px;
+   margin: 0px 5px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+  .ShoeRack1:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .ShoeRack1text{
+  padding: 12px;
+  height: 80px; 
+  width: 300px;
+  box-sizing: border-box;
+  position:absolute;
+ color: black ;
+    background:yellow;
+    border-radius: 5px;
+    margin: 0px 5px;
+  }
+  .ShoeRack2 img{
+  display: block;
+   border-radius: 5px;
+   width: 300px;
+   height: 300px;
+   margin: 0px 5px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   .ShoeRack2:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .ShoeRack2text{
+  padding: 12px;
+  height: 80px; 
+  width: 300px;
+  box-sizing: border-box;
+  position:absolute;
+   color: black ;
+    background:yellow;
+    border-radius: 5px;
+    margin: 0px 5px;
+  }
+  .ShoeRack3 img{
+  display: block;
+   border-radius: 5px;
+   width: 300px;
+   height: 300px;
+   margin: 0px 5px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   .ShoeRack3:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+  .ShoeRack3text{
+  padding: 12px;
+  height: 80px; 
+  width: 300px;
+  box-sizing: border-box;
+  position:absolute;
+  color: black ;
+    background:yellow;
+    border-radius: 5px;
+    margin: 0px 5px;
+  }
+  .ShoeRack4 img{
+   display: block;
+   border-radius: 5px;
+   width: 300px;
+   height: 300px;
+   margin: 0px 5px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   .ShoeRack4:hover{
+    transform:scale(1.3) ;
+    y-index: 2;
+  }
+   .ShoeRack4text{
+  padding: 12px;
+  height: 80px; 
+  width: 300px;
+  box-sizing: border-box;
+  position:absolute;
+  color: black ;
+    background:yellow;
+    border-radius: 5px;
+    margin: 0px 5px;
+  }
+h3{
+  font-size: 4 rem(0, 0);
+  padding: 50px, 0;
+  text-align: center;
+  color: #000000;
+  margin:100px 70px ;
+}

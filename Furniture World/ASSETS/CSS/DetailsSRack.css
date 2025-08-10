@@ -1,0 +1,32 @@
+.SRackFolder img{
+   display: block;
+   width: 400px;
+   height: 300px;
+   border-radius: 5px;
+   margin: 0px 500px;
+   box-shadow: 5px 5px 20px #0A90B5;
+  }
+   .SRacktext{
+  padding: 12px;
+  height: 80px; 
+  width: 1000px;
+  position:absolute;
+  color: black ;
+  font-family: verdana;
+  text-align: center;
+  position: absolute;
+  top:60%;
+  left: 17%;
+  }        
+  .SRackDetails{
+  position:absolute;
+  color: black ;
+  font-family: Arial;
+  top:70%;
+
+  }
+  .SRackspecs{
+    position:absolute;
+      font-family: Arial;
+    top:85%;
+  }
